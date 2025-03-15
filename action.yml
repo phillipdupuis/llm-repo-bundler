@@ -1,0 +1,28 @@
+name: repo-to-text
+description:
+  Convert a repository (or a subset of it) to an LLM-friendly text output
+author: Phillip Dupuis
+
+branding:
+  icon: heart
+  color: green
+
+inputs:
+  include:
+    description:
+      Comma-separated list of glob patterns to include in the text output
+    required: true
+  exclude:
+    description:
+      Comma-separated list of glob patterns to exclude from the text output.
+      This is in addition to the patterns defined in the .gitignore file.
+    required: false
+    default: "dist, node_modules"
+
+outputs:
+  text:
+    description: Your output description here
+
+runs:
+  using: node20
+  main: dist/index.js
