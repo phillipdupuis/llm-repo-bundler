@@ -1,7 +1,7 @@
 {
   "name": "llm-repo-bundler",
   "description": "Convert a repository (or a subset of a repository) into a single text file",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "author": "Phillip Dupuis",
   "type": "module",
   "homepage": "https://github.com/phillipdupuis/llm-repo-bundler#readme",
