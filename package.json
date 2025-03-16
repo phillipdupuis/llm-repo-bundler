@@ -1,16 +1,16 @@
 {
-  "name": "repo-to-text",
+  "name": "llm-repo-bundler",
   "description": "Convert a repository (or a subset of a repository) into a single text file",
   "version": "0.0.0",
   "author": "Phillip Dupuis",
   "type": "module",
-  "homepage": "https://github.com/phillipdupuis/repo-to-text#readme",
+  "homepage": "https://github.com/phillipdupuis/llm-repo-bundler#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/phillipdupuis/repo-to-text.git"
+    "url": "git+https://github.com/phillipdupuis/llm-repo-bundler.git"
   },
   "bugs": {
-    "url": "https://github.com/phillipdupuis/repo-to-text/issues"
+    "url": "https://github.com/phillipdupuis/llm-repo-bundler/issues"
   },
   "keywords": [
     "actions",
@@ -20,7 +20,7 @@
     ".": "./dist/index.js"
   },
   "bin": {
-    "repo-to-text": "./dist/index.js"
+    "llm-repo-bundler": "./dist/index.js"
   },
   "engines": {
     "node": ">=20"

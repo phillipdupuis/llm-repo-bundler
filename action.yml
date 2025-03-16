@@ -1,4 +1,4 @@
-name: repo-to-text
+name: llm-repo-bundler
 description:
   Convert a repository (or a subset of it) to an LLM-friendly text output
 author: Phillip Dupuis
@@ -20,8 +20,8 @@ inputs:
     default: "dist, node_modules"
 
 outputs:
-  text:
-    description: Your output description here
+  result:
+    description: The bundled repository as a text string
 
 runs:
   using: node20
